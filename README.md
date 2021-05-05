@@ -10,7 +10,7 @@ Book Store Api (Yousry)
 * OpenAPI V3 with swaggerUI 
 * Docker
 
-# task description and how to run
+# Description and how to run
 
 - while starting the APIs, H2 DB will execute *data.sql* scripts for initial data insertion.
   
