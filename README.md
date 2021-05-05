@@ -19,7 +19,7 @@ Book Store Api (Yousry)
 - if you are running on docker , you have to map the port of 9090 as this is the api port.
   
 - after running the service, to access the swagger UI you should go to :
-  http://localhost:9090/bookstore/swagger-ui/index.html
+  http://localhost:9090/bookstore/swagger-ui.html
   
 - first you need to call /v1/login service to get the JWT token, then use this token as an 
   Authorization header in any other request to any end point in the API, other wise you will get 
