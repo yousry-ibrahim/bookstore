@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /bookstore
+  port: 9090
+
+spring:
+  application:
+    name: bookstore
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
